@@ -1,0 +1,343 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* start header home section */
+
+/* start nav */
+
+.header {
+  background-image: url(../Media/task6_header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  font-family: monospace;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav .logo img {
+  width: 150px;
+}
+
+.nav .links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+  font-size: x-large;
+  font-weight: 700;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+.nav .links a:hover {
+  transform: scale(1.05);
+  color: #f26b5b;
+}
+.nav .button a {
+  background-color: #f26b5b;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 18px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 14px;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+.nav .button a:hover {
+  transform: scale(1.05);
+}
+.card {
+  width: 420px;
+  height: 400px;
+  padding: 60px 45px;
+  margin-top: 50px;
+  margin-left: 240px;
+  border-radius: 40px;
+  box-sizing: border-box;
+  background-color: #559f84;
+  color: white;
+}
+
+.card h2 {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1.4;
+
+  animation: slide-up 0.7s linear 1;
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(25px);
+    opacity: 0.5;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* end header home section */
+
+/* start article Section */
+.clinic-section {
+  font-family: "Comfortaa", sans-serif;
+  padding: 80px 10%;
+  background-color: #ffffff;
+}
+
+.clinic-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.clinic-title h2 {
+  font-size: 32px;
+  color: #1f3e4d;
+  font-weight: 700;
+}
+
+.clinic-title hr {
+  width: 140px;
+  height: 4px;
+  background-color: #e65f2b;
+  border: none;
+  margin: 10px auto 0;
+}
+
+.clinic-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.clinic-image {
+  flex: 1;
+}
+
+.clinic-image img {
+  width: 100%;
+  max-width: 480px;
+  display: block;
+}
+
+.clinic-text {
+  flex: 1.2;
+}
+
+.clinic-text h3 {
+  font-size: 26px;
+  color: #3b8b88;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.clinic-text p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #555555;
+}
+/* end article Section */
+
+/* start card Section */
+.touch-section {
+  padding: 80px 5% 100px;
+  background-size: cover;
+  background-position: top;
+  font-family: "Comfortaa", sans-serif;
+  text-align: center;
+  background-image: url("../Media/task6_card-backgound1.png"), url("../Media/task6_card-backgound2.png");
+  clip-path: polygon(0 4%, 100% 0, 100% 92%, 0 100%);
+  padding-top: 100px;
+  padding-bottom: 140px;
+}
+
+.touch-section h2 {
+  color: #ffffff;
+  font-size: 32px;
+  margin-bottom: 50px;
+  font-weight: 700;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.touch-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px 15px;
+  width: 250px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.touch-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.touch-card .img-box {
+  width: 100%;
+  height: 150px;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.touch-card .img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.touch-card h3 {
+  font-size: 18px;
+  color: #3b8b88;
+  margin-bottom: 15px;
+  font-weight: 600;
+  padding-top: 15px;
+}
+
+.touch-card p {
+  font-size: 13px;
+  color: #666666;
+  line-height: 1.6;
+  text-align: center;
+}
+/* end card Section */
+
+/* start cards section */
+.doctors-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 50px 5%;
+  background-color: #ffffff;
+  flex-wrap: wrap;
+}
+
+.doctor-card-img {
+  width: 200px;
+  height: auto;
+  object-fit: contain;
+  transition: all 0.3s ease;
+  padding: 20px;
+}
+.doctor-card-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+/* end cards section */
+
+/* start footer Section */
+
+.footer {
+  background-color: #176551;
+  color: #ffffff;
+  padding: 60px 8% 35px;
+  border-top-left-radius: 90px;
+  border-top-right-radius: 90px;
+  font-family: "Comfortaa", sans-serif;
+  box-sizing: border-box;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin-bottom: 75px;
+}
+
+.footer-col.about {
+  text-align: center;
+  max-width: 370px;
+}
+
+.footer-col.about h3 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 22px;
+  color: #ffffff;
+}
+
+.footer-col.about p {
+  font-size: 11px;
+  line-height: 1.7;
+  color: #ffffff;
+}
+
+.footer-col h4 {
+  color: #f26b5b;
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a,
+.footer-col p {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.footer-col p {
+  margin-bottom: 10px;
+}
+
+.footer-bottom {
+  text-align: left;
+  margin-left: 30px;
+}
+
+.footer-bottom p {
+  font-size: 11px;
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.social-icons a {
+  color: #ffffff;
+  font-size: 18px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* end footer Section */

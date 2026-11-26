@@ -1,0 +1,68 @@
+/* start header home section */
+.header-home {
+  background-image: url(../media/task8_header.jpg);
+  height: 700px;
+  background-size: cover;
+}
+.header-home h1 {
+  width: 420px;
+  height: 400px;
+  padding: 60px 45px;
+  margin-top: 100px;
+  margin-left: 100px;
+  border-radius: 40px;
+  box-sizing: border-box;
+  background-color: #559f84;
+  color: white;
+  letter-spacing: 1px;
+  line-height: 1.7;
+  font-family: monospace;
+  font-weight: 800;
+}
+@media (max-width: 575px) {
+  .header-home {
+    background-position: right;
+  }
+  .header-home h1 {
+    width: 60%;
+    height: 240px;
+    margin-left: 80px;
+    margin-top: 150px;
+    padding: 30px 10px;
+    font-size: 24px;
+    text-align: center;
+  }
+}
+
+/* end header home section */
+
+/* start main home section */
+.school-clinic h3 {
+  color: #1f3e4d;
+}
+/* end main home section */
+
+/* start touch home section */
+.touch-home {
+  min-height: 1000px;
+  background-size: cover;
+  background-image: url(../media/task8_card-backgound1.png), url(../media/task8_card-backgound2.png);
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.touch-home h3 {
+  color: #3b8b88;
+}
+/* end touch home section */
+
+/* start footer */
+.footer-home {
+  background-color: #176551;
+  border-radius: 170px 170px 0 0;
+  padding-block: 100px;
+}
+.footer-home h4 {
+  color: #f26b5b;
+}
+/* end footer */

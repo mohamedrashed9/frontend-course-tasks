@@ -11,7 +11,7 @@
 /* start nav */
 
 .header {
-  background-image: url(../Media/task6_header.jpg);
+  background-image: url(../media/task6_header.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 700px;
@@ -155,7 +155,7 @@
   background-position: top;
   font-family: "Comfortaa", sans-serif;
   text-align: center;
-  background-image: url("../Media/task6_card-backgound1.png"), url("../Media/task6_card-backgound2.png");
+  background-image: url("../media/task6_card-backgound1.png"), url("../media/task6_card-backgound2.png");
   clip-path: polygon(0 4%, 100% 0, 100% 92%, 0 100%);
   padding-top: 100px;
   padding-bottom: 140px;

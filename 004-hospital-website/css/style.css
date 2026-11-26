@@ -34,7 +34,7 @@
   align-items: center;
   justify-content: center;
   height: 800px;
-  background-image: url(../Media/task4_hero-background.jpg);
+  background-image: url(../media/task4_hero-background.jpg);
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -151,7 +151,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(../Media/task4_contact\ us.gif);
+  background-image: url(../media/task4_contact\ us.gif);
   background-size: cover;
   height: 700px;
 }
@@ -205,7 +205,7 @@
 
 .footer {
   height: 500px;
-  background-image: url(../Media/task4_footer.jpg);
+  background-image: url(../media/task4_footer.jpg);
 }
 
 /* end footer home section */
